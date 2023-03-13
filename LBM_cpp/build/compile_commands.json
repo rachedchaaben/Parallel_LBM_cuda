@@ -1,0 +1,72 @@
+[
+{
+  "directory": "/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/build/src",
+  "command": "/usr/bin/c++  -I/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src -I/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/utils -O3 -DNDEBUG -std=c++11 -o CMakeFiles/lbmFlowAroundCylinder.dir/main.cpp.o -c /home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/main.cpp",
+  "file": "/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/main.cpp"
+},
+{
+  "directory": "/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/build/src/utils/monitoring",
+  "command": "/usr/bin/c++  -I/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/utils/monitoring -O3 -DNDEBUG -fopenmp -std=c++11 -o CMakeFiles/lbmMonitoring.dir/OpenMPTimer.cpp.o -c /home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/utils/monitoring/OpenMPTimer.cpp",
+  "file": "/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/utils/monitoring/OpenMPTimer.cpp"
+},
+{
+  "directory": "/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/build/src/utils/monitoring",
+  "command": "/usr/bin/c++  -I/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/utils/monitoring -O3 -DNDEBUG -fopenmp -std=c++11 -o CMakeFiles/lbmMonitoring.dir/SimpleTimer.cpp.o -c /home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/utils/monitoring/SimpleTimer.cpp",
+  "file": "/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/utils/monitoring/SimpleTimer.cpp"
+},
+{
+  "directory": "/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/build/src/utils/config",
+  "command": "/usr/bin/c++  -I/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/utils -O3 -DNDEBUG -std=c++11 -o CMakeFiles/config.dir/ConfigMap.cpp.o -c /home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/utils/config/ConfigMap.cpp",
+  "file": "/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/utils/config/ConfigMap.cpp"
+},
+{
+  "directory": "/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/build/src/utils/config",
+  "command": "/usr/bin/c++  -I/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/utils -O3 -DNDEBUG -std=c++11 -o CMakeFiles/config.dir/inih/ini.cpp.o -c /home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/utils/config/inih/ini.cpp",
+  "file": "/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/utils/config/inih/ini.cpp"
+},
+{
+  "directory": "/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/build/src/utils/config",
+  "command": "/usr/bin/c++  -I/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/utils -O3 -DNDEBUG -std=c++11 -o CMakeFiles/config.dir/inih/INIReader.cpp.o -c /home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/utils/config/inih/INIReader.cpp",
+  "file": "/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/utils/config/inih/INIReader.cpp"
+},
+{
+  "directory": "/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/build/src/utils/writePNG",
+  "command": "/usr/bin/c++   -O3 -DNDEBUG -std=c++11 -o CMakeFiles/lodepng.dir/lodepng.cpp.o -c /home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/utils/writePNG/lodepng.cpp",
+  "file": "/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/utils/writePNG/lodepng.cpp"
+},
+{
+  "directory": "/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/build/src/utils/writePNG",
+  "command": "/usr/bin/c++   -O3 -DNDEBUG -std=c++11 -o CMakeFiles/example_encode_PNG.dir/example_encode_PNG.cpp.o -c /home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/utils/writePNG/example_encode_PNG.cpp",
+  "file": "/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/utils/writePNG/example_encode_PNG.cpp"
+},
+{
+  "directory": "/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/build/src/utils/writeVTK",
+  "command": "/usr/bin/c++  -I/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src -O3 -DNDEBUG -std=c++11 -o CMakeFiles/saveVTK.dir/saveVTK.cpp.o -c /home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/utils/writeVTK/saveVTK.cpp",
+  "file": "/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/utils/writeVTK/saveVTK.cpp"
+},
+{
+  "directory": "/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/build/src/utils/writeVTK",
+  "command": "/usr/bin/c++  -I/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src -I/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/utils -O3 -DNDEBUG -std=c++11 -o CMakeFiles/testVTK.dir/testVTK.cpp.o -c /home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/utils/writeVTK/testVTK.cpp",
+  "file": "/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/utils/writeVTK/testVTK.cpp"
+},
+{
+  "directory": "/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/build/src/lbm",
+  "command": "/usr/bin/c++  -I/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src -I/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/utils -O3 -DNDEBUG -std=c++11 -o CMakeFiles/lbmCore.dir/LBMParams.cpp.o -c /home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/lbm/LBMParams.cpp",
+  "file": "/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/lbm/LBMParams.cpp"
+},
+{
+  "directory": "/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/build/src/lbm",
+  "command": "/usr/bin/c++  -I/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src -I/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/utils -O3 -DNDEBUG -std=c++11 -o CMakeFiles/lbmCore.dir/lbmFlowUtils.cpp.o -c /home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/lbm/lbmFlowUtils.cpp",
+  "file": "/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/lbm/lbmFlowUtils.cpp"
+},
+{
+  "directory": "/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/build/src/lbm",
+  "command": "/usr/bin/c++  -I/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src -I/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/utils -O3 -DNDEBUG -std=c++11 -o CMakeFiles/lbmCore.dir/LBMSolver.cpp.o -c /home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/lbm/LBMSolver.cpp",
+  "file": "/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/lbm/LBMSolver.cpp"
+},
+{
+  "directory": "/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/build/test/configMap",
+  "command": "/usr/bin/c++  -I/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/src/utils -O3 -DNDEBUG -std=c++11 -o CMakeFiles/ConfigMapTest.dir/ConfigMapTest.cpp.o -c /home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/test/configMap/ConfigMapTest.cpp",
+  "file": "/home/rchaaben/MS-HPC-AI-GPU/code/mini-projet/LBM/cpp/LBM_cpp/test/configMap/ConfigMapTest.cpp"
+}
+]

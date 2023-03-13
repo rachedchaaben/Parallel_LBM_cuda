@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/lbmFlowAroundCylinder.dir/main.cu.o -o lbmFlowAroundCylinder   -L/usr/lib/x86_64-linux-gnu/stubs  lbm/liblbmCore.a utils/config/libconfig.a utils/writePNG/liblodepng.a utils/writeVTK/libsaveVTK.a -lcudadevrt -lcudart_static -lrt -lpthread -ldl 

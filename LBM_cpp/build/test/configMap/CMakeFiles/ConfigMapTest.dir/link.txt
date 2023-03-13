@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/ConfigMapTest.dir/ConfigMapTest.cpp.o -o ConfigMapTest  ../../src/utils/config/libconfig.a 

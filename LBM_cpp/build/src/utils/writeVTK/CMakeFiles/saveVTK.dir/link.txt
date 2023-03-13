@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsaveVTK.a CMakeFiles/saveVTK.dir/saveVTK.cpp.o
+/usr/bin/ranlib libsaveVTK.a

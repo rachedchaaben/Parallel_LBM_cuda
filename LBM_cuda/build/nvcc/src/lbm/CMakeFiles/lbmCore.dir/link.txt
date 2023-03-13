@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblbmCore.a CMakeFiles/lbmCore.dir/LBMParams.cpp.o CMakeFiles/lbmCore.dir/lbmFlowUtils.cu.o CMakeFiles/lbmCore.dir/LBMSolver.cu.o
+/usr/bin/ranlib liblbmCore.a

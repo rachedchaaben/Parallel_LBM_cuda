@@ -1,0 +1,269 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						8
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						7
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "src/utils",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/utils"
+				},
+				{
+					"build" : "src/utils/monitoring",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/utils/monitoring",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "src/utils/config",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/utils/config",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/utils/writePNG",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/utils/writePNG",
+					"targetIndexes" : 
+					[
+						2,
+						6
+					]
+				},
+				{
+					"build" : "src/utils/writeVTK",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/utils/writeVTK",
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				},
+				{
+					"build" : "src/lbm",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/lbm",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "test",
+					"childIndexes" : 
+					[
+						9
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test"
+				},
+				{
+					"build" : "test/configMap",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "test/configMap",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"name" : "LBMcpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 9,
+					"id" : "ConfigMapTest::@41772a66a6d80e0c1cef",
+					"jsonFile" : "target-ConfigMapTest-Debug-c11c2ebe2e42ad335d78.json",
+					"name" : "ConfigMapTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "config::@d1c46c0e01b03961ca31",
+					"jsonFile" : "target-config-Debug-52c10787e86aaf64208d.json",
+					"name" : "config",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example_encode_PNG::@c6b4cab500e40f3171cb",
+					"jsonFile" : "target-example_encode_PNG-Debug-d9769c847fe2c342ee4c.json",
+					"name" : "example_encode_PNG",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "lbmCore::@2ffa670a9ef2bf9fcffd",
+					"jsonFile" : "target-lbmCore-Debug-c1a1e960e8224c0f119d.json",
+					"name" : "lbmCore",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lbmFlowAroundCylinder::@145eef247bfb46b6828c",
+					"jsonFile" : "target-lbmFlowAroundCylinder-Debug-48c6f9b49d4a955a8d27.json",
+					"name" : "lbmFlowAroundCylinder",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "lbmMonitoring::@2ae2c3d688856212ffe3",
+					"jsonFile" : "target-lbmMonitoring-Debug-b004bbff13d85aefe522.json",
+					"name" : "lbmMonitoring",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "lodepng::@c6b4cab500e40f3171cb",
+					"jsonFile" : "target-lodepng-Debug-ab599b66073e8bdbb5fa.json",
+					"name" : "lodepng",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "saveVTK::@75ffac34cf38f12ea0d8",
+					"jsonFile" : "target-saveVTK-Debug-75fbed5bba92f090fa1a.json",
+					"name" : "saveVTK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "testVTK::@75ffac34cf38f12ea0d8",
+					"jsonFile" : "target-testVTK-Debug-05bd0dad6f7a544dd2e6.json",
+					"name" : "testVTK",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/local/rached.chaaben/LBM/LBM_cpp/out/build/x64-Debug",
+		"source" : "C:/local/rached.chaaben/LBM/LBM_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

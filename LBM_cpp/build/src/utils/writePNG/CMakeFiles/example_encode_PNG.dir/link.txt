@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/example_encode_PNG.dir/example_encode_PNG.cpp.o -o example_encode_PNG  liblodepng.a 

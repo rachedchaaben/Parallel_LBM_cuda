@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblbmMonitoring.a CMakeFiles/lbmMonitoring.dir/OpenMPTimer.cpp.o CMakeFiles/lbmMonitoring.dir/SimpleTimer.cpp.o CMakeFiles/lbmMonitoring.dir/my_cuda_utils.cu.o
+/usr/bin/ranlib liblbmMonitoring.a

@@ -1,0 +1,72 @@
+[
+{
+  "directory": "C:/local/rached.chaaben/LBM/LBM_cpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -I..\\..\\..\\src -I..\\..\\..\\src\\utils /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Fosrc\\CMakeFiles\\lbmFlowAroundCylinder.dir\\main.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\local\\rached.chaaben\\LBM\\LBM_cpp\\src\\main.cpp",
+  "file": "C:/local/rached.chaaben/LBM/LBM_cpp/src/main.cpp"
+},
+{
+  "directory": "C:/local/rached.chaaben/LBM/LBM_cpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -I..\\..\\..\\src\\utils\\monitoring /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -openmp /Fosrc\\utils\\monitoring\\CMakeFiles\\lbmMonitoring.dir\\OpenMPTimer.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\local\\rached.chaaben\\LBM\\LBM_cpp\\src\\utils\\monitoring\\OpenMPTimer.cpp",
+  "file": "C:/local/rached.chaaben/LBM/LBM_cpp/src/utils/monitoring/OpenMPTimer.cpp"
+},
+{
+  "directory": "C:/local/rached.chaaben/LBM/LBM_cpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -I..\\..\\..\\src\\utils\\monitoring /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -openmp /Fosrc\\utils\\monitoring\\CMakeFiles\\lbmMonitoring.dir\\SimpleTimer.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\local\\rached.chaaben\\LBM\\LBM_cpp\\src\\utils\\monitoring\\SimpleTimer.cpp",
+  "file": "C:/local/rached.chaaben/LBM/LBM_cpp/src/utils/monitoring/SimpleTimer.cpp"
+},
+{
+  "directory": "C:/local/rached.chaaben/LBM/LBM_cpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -I..\\..\\..\\src\\utils /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Fosrc\\utils\\config\\CMakeFiles\\config.dir\\ConfigMap.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\local\\rached.chaaben\\LBM\\LBM_cpp\\src\\utils\\config\\ConfigMap.cpp",
+  "file": "C:/local/rached.chaaben/LBM/LBM_cpp/src/utils/config/ConfigMap.cpp"
+},
+{
+  "directory": "C:/local/rached.chaaben/LBM/LBM_cpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -I..\\..\\..\\src\\utils /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Fosrc\\utils\\config\\CMakeFiles\\config.dir\\inih\\ini.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\local\\rached.chaaben\\LBM\\LBM_cpp\\src\\utils\\config\\inih\\ini.cpp",
+  "file": "C:/local/rached.chaaben/LBM/LBM_cpp/src/utils/config/inih/ini.cpp"
+},
+{
+  "directory": "C:/local/rached.chaaben/LBM/LBM_cpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -I..\\..\\..\\src\\utils /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Fosrc\\utils\\config\\CMakeFiles\\config.dir\\inih\\INIReader.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\local\\rached.chaaben\\LBM\\LBM_cpp\\src\\utils\\config\\inih\\INIReader.cpp",
+  "file": "C:/local/rached.chaaben/LBM/LBM_cpp/src/utils/config/inih/INIReader.cpp"
+},
+{
+  "directory": "C:/local/rached.chaaben/LBM/LBM_cpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Fosrc\\utils\\writePNG\\CMakeFiles\\lodepng.dir\\lodepng.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\local\\rached.chaaben\\LBM\\LBM_cpp\\src\\utils\\writePNG\\lodepng.cpp",
+  "file": "C:/local/rached.chaaben/LBM/LBM_cpp/src/utils/writePNG/lodepng.cpp"
+},
+{
+  "directory": "C:/local/rached.chaaben/LBM/LBM_cpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Fosrc\\utils\\writePNG\\CMakeFiles\\example_encode_PNG.dir\\example_encode_PNG.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\local\\rached.chaaben\\LBM\\LBM_cpp\\src\\utils\\writePNG\\example_encode_PNG.cpp",
+  "file": "C:/local/rached.chaaben/LBM/LBM_cpp/src/utils/writePNG/example_encode_PNG.cpp"
+},
+{
+  "directory": "C:/local/rached.chaaben/LBM/LBM_cpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -I..\\..\\..\\src /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Fosrc\\utils\\writeVTK\\CMakeFiles\\saveVTK.dir\\saveVTK.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\local\\rached.chaaben\\LBM\\LBM_cpp\\src\\utils\\writeVTK\\saveVTK.cpp",
+  "file": "C:/local/rached.chaaben/LBM/LBM_cpp/src/utils/writeVTK/saveVTK.cpp"
+},
+{
+  "directory": "C:/local/rached.chaaben/LBM/LBM_cpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -I..\\..\\..\\src -I..\\..\\..\\src\\utils /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Fosrc\\utils\\writeVTK\\CMakeFiles\\testVTK.dir\\testVTK.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\local\\rached.chaaben\\LBM\\LBM_cpp\\src\\utils\\writeVTK\\testVTK.cpp",
+  "file": "C:/local/rached.chaaben/LBM/LBM_cpp/src/utils/writeVTK/testVTK.cpp"
+},
+{
+  "directory": "C:/local/rached.chaaben/LBM/LBM_cpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -I..\\..\\..\\src -I..\\..\\..\\src\\utils /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Fosrc\\lbm\\CMakeFiles\\lbmCore.dir\\LBMParams.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\local\\rached.chaaben\\LBM\\LBM_cpp\\src\\lbm\\LBMParams.cpp",
+  "file": "C:/local/rached.chaaben/LBM/LBM_cpp/src/lbm/LBMParams.cpp"
+},
+{
+  "directory": "C:/local/rached.chaaben/LBM/LBM_cpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -I..\\..\\..\\src -I..\\..\\..\\src\\utils /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Fosrc\\lbm\\CMakeFiles\\lbmCore.dir\\lbmFlowUtils.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\local\\rached.chaaben\\LBM\\LBM_cpp\\src\\lbm\\lbmFlowUtils.cpp",
+  "file": "C:/local/rached.chaaben/LBM/LBM_cpp/src/lbm/lbmFlowUtils.cpp"
+},
+{
+  "directory": "C:/local/rached.chaaben/LBM/LBM_cpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -I..\\..\\..\\src -I..\\..\\..\\src\\utils /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Fosrc\\lbm\\CMakeFiles\\lbmCore.dir\\LBMSolver.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\local\\rached.chaaben\\LBM\\LBM_cpp\\src\\lbm\\LBMSolver.cpp",
+  "file": "C:/local/rached.chaaben/LBM/LBM_cpp/src/lbm/LBMSolver.cpp"
+},
+{
+  "directory": "C:/local/rached.chaaben/LBM/LBM_cpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -I..\\..\\..\\src\\utils /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Fotest\\configMap\\CMakeFiles\\ConfigMapTest.dir\\ConfigMapTest.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\local\\rached.chaaben\\LBM\\LBM_cpp\\test\\configMap\\ConfigMapTest.cpp",
+  "file": "C:/local/rached.chaaben/LBM/LBM_cpp/test/configMap/ConfigMapTest.cpp"
+}
+]
