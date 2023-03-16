@@ -10,6 +10,10 @@
 #include "writePNG/lodepng.h"
 #include "writeVTK/saveVTK.h"
 
+#include <sys/time.h>
+
+struct timeval t1, t2;
+
 // ======================================================
 // ======================================================
 LBMSolver::LBMSolver(const LBMParams& params) :
@@ -79,6 +83,8 @@ void LBMSolver::initialize()
 // ======================================================
 void LBMSolver::run()
 {
+  // Uncomment for time measurment
+  //gettimeofday(&t1, 0);
 
   initialize();
 
@@ -116,7 +122,14 @@ void LBMSolver::run()
     streaming(params, v, fout, fin);
 
   } // end for iTime
-
+  
+  // Uncomment for time measurment
+  /*
+  gettimeofday(&t2, 0);
+  double time = (1000000.0*(t2.tv_sec-t1.tv_sec) + t2.tv_usec-t1.tv_usec)/1000.0;
+  printf("Time to generate:  %3.1f ms \n", time);
+  */
+  
 } // LBMSolver::run
 
 // ======================================================

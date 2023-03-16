@@ -132,10 +132,10 @@ void initialize_macroscopic_variables(const LBMParams& params,
 void border_outflow(const LBMParams& params, real_t* fin_d)
 {
   const int ny = params.ny;
-  
+  int nbTh = 256;
   // call kernel
-  dim3 grid_size((ny+nbThreads-1)/nbThreads);
-  dim3 block_dim(nbThreads);
+  dim3 grid_size((ny+nbTh-1)/nbTh);
+  dim3 block_dim(nbTh);
   border_outflow_kernel<<<grid_size,block_dim>>>(params,fin_d);
   
 
@@ -147,10 +147,10 @@ void border_inflow(const LBMParams& params, const real_t* fin_d,
                    real_t* rho_d, real_t* ux_d, real_t* uy_d)
 {
   const int ny = params.ny;
-  
+  int nbTh = 256;
   // call kernel
-  dim3 grid_size((ny+nbThreads-1)/nbThreads);
-  dim3 block_dim(nbThreads);
+  dim3 grid_size((ny+nbTh-1)/nbTh);
+  dim3 block_dim(nbTh);
   
   border_inflow_kernel<<<grid_size,block_dim>>>(params,fin_d,rho_d,ux_d,uy_d);
   
@@ -163,10 +163,10 @@ void update_fin_inflow(const LBMParams& params, const real_t* feq_d,
 {
 
   const int ny = params.ny;
-  
+  int nbTh = 256;
   // call kernel
-  dim3 grid_size((ny+nbThreads-1)/nbThreads);
-  dim3 block_dim(nbThreads);
+  dim3 grid_size((ny+nbTh-1)/nbTh);
+  dim3 block_dim(nbTh);
   
   update_fin_inflow_kernel<<<grid_size,block_dim>>>(params,feq_d,fin_d);
   
