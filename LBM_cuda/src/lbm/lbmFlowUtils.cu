@@ -5,7 +5,7 @@
 #include "lbmFlowUtils_kernels.h"
 #include "cuda_error.h"
 
-const int nbThreads = 128;
+const int nbThreads = 32;
 
 // ======================================================
 // ======================================================
